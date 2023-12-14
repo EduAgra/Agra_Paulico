@@ -71,6 +71,7 @@ button{
     position: relative;
     overflow: hidden;
     z-index: 1;
+    cursor: pointer;
 }
 span{
     background: rgb(164, 87, 41);
@@ -91,7 +92,88 @@ button:hover{
 }
 .photoPortrait{
     padding: 30px 100px;
+    margin-top: -37%;
 }
 .photoPortrait img{
     border-radius: 50%;
+}
+#apresentacaoDois{
+    max-width: 600px;
+    margin: 120px auto;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#apresentacaoDois h1{
+    font-size: 50px;
+}
+#apresentacaoDois p{
+    margin-top: 30px;
+    font-size: 18px;
+}
+#imagens{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+#imagens img{
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+  padding: 5px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#imagens img:hover{
+  scale: 1.3;
+}
+.formulario{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+.formulario p{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.textoform{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#sugestao{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 150px;
+    border: 1.8px solid rgb(0,0,0);
+}
+#botaoform{
+    color: rgb(0,0,0);
+    width: 200px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 10px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid rgb(164, 87, 41);
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+}
+#botaoform:hover span{
+    width: 100%;
+}
+#botao:hover{
+    border: none;
 }

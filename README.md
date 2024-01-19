@@ -2,3 +2,4 @@
 
 #acho poucas imagens para uma galeria, acho que tinahamos que ter mais paginas com imagens e separar algo por autor, sei que talvez nao tenhas fotos tuas mas colocavamos algo pra dar a ideai do site, o que achas? 
 
+trata de meter mais imagens ent mete as que quiseres como pus o site responsivo deve ficar bem na mesma
